@@ -1,5 +1,5 @@
-<span id="timeDate">戒色戒撸....</span>
-<span id="times">强撸灰飞烟灭....</span>
+<span id="timeDate">考试过程....</span>
+<span id="times">考试时间....</span>
       <script>
       var now = new Date(); 
       function createtime(){ 
@@ -22,7 +22,7 @@
           if(String(snum).length ==1 ){
                    snum = "0" + snum;
           } 
-          document.getElementById("timeDate").innerHTML = "经历时候&nbsp"+dnum+"&nbsp天"; 
+          document.getElementById("timeDate").innerHTML = "经历时间&nbsp"+dnum+"&nbsp天"; 
           document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒"; 
       } 
       setInterval("createtime()",250);
